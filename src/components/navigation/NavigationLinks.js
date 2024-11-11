@@ -20,7 +20,7 @@ const NavigationLinks = (props) => {
         Main
       </NavLink>
       <NavLink
-        to="/about"
+        to="/"
         onClick={() => {
           ScrollToTop();
           props.closeMenu();
@@ -30,7 +30,7 @@ const NavigationLinks = (props) => {
         About
       </NavLink>
       <NavLink
-        to="/portfolio"
+        to="/"
         className={activeNavLink}
         onClick={() => {
           ScrollToTop();
@@ -40,7 +40,7 @@ const NavigationLinks = (props) => {
         Portfolio
       </NavLink>
       <NavLink
-        to="/contact"
+        to="/"
         className={activeNavLink}
         onClick={() => {
           ScrollToTop();

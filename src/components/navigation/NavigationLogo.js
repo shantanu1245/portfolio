@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import IconBlack from "../../assets/images/icon-black.png";
+import IconBlack from "../../assets/images/SS (2).png";
 import ScrollToTop from "../../helpers/ScrollToTop";
 
 const NavigationLogo = (props) => {

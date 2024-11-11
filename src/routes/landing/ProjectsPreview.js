@@ -4,16 +4,11 @@ import { projectsData } from "../../data/projectsData";
 
 const ProjectsPreview = () => {
   return (
-    <section className="projects-grid">
+    <section className="projects-grid" >
       {projectsData.map((project, index) => (
-        <section key={index} className="projects-grid__project">
-          <img
-            src={project.img}
-            alt=""
-            aria-hidden="true"
-            className="projects-grid__cover"
-          />
-          <section className="projects-grid__description">
+        <section key={index} className="projects-grid__project card">
+          <section className="projects-grid__description" style={{border:' 1px solid white', padding: '10px',borderRadius:'5px'}}>
+          <h1 style={{color:'white',fontSize:'30px',textAlign:'center'}}>{project.name}</h1>
             <p className="white-text p-tag">{project.description}</p>
             <section className="projects-grid__stack">
               {project.stack.map((stackName, index) => (
@@ -21,17 +16,11 @@ const ProjectsPreview = () => {
               ))}
             </section>
             <section className="projects-grid__links">
-              <a href={project.src} target="_blank" rel="noreferrer">
-                <img src={ExternalLink} alt="Link to project" />
-              </a>
-              <a href={project.source} target="_blank" rel="noreferrer">
-                <img src={GithubRepo} alt="Link to Github" />
-              </a>
+              
             </section>
           </section>
         </section>
-      ))
-      }
+      ))}
     </section>
   );
 };

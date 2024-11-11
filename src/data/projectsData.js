@@ -5,44 +5,25 @@ import Bankist from "../assets/images/portfolio/Bankist.jpeg";
 
 const projectsData = [
   {
-    id: "rest-countries",
-    img: RestCountries,
-    name: "Rest Countires",
-    stack: ["< RESTful API />", "< CSS3 />", "< React.js />"],
-    src: "https://restful-countries.vercel.app/",
-    source: "https://github.com/catherineisonline/rest-countries",
+    id: "Digital Warranty Card",
+    name: "Digital Warranty Card",
+    stack: ["< Android Studio />", "< XML />", "< Firebase />"],
     description:
-      "REST Countries is a project made with API which also has a color theme switcher feature. You can view the list of all countries and find a specific one via search or by filtering regions. By navigating to the individual country page, you are able to see more details about the country like native name and even border countries.",
+      " DEVELOPED AN ANDROID APPLICATION THAT PROVIDES DIGITAL WARRANTY CARDS TO ADDRESS THE ISSUE OF LOST WARRANTY CARDS FOR SPECIFIC PRODUCTS.CREATED A USER INTERFACE FORM WHERE USERS CAN ENTER THE REQUIRED DETAILS TO RECEIVE A DIGITAL WARRANTY CARD.IN THIS PROJECT, I DESIGNED THE FRONTEND FORM USING ANDROID STUDIO, WORKING WITH XML, JAVA, AND FIREBASE DATABASE ",
   },
+ 
   {
-    id: "url-shortener",
-    img: urlShortener,
-    name: "URL Shortener",
-    stack: ["< HTML5 />", "< CSS />", "< Vanilla JS />", "< RESTful API />"],
-    src: "https://catherineisonline.github.io/url-shortening-api-frontendmentor/",
-    source: "https://github.com/catherineisonline/url-shortening-api-frontendmentor",
+    id: "PetPal",
+    name: "Pet Pal",
+    stack: ["< Android Studio />", "< XML />", "< Firebase />"],
     description:
-      "The goal of this landing page challenge is integration with the shrtcode URL shortening API and playing with browser storage. The challenge is to integrate with the shrtcode API to create shortened URLs and display them like in the designs. You can use any JavaScript framework/library on the front-end such as React or Vue. You also have complete control over which packages you use to do things like make HTTP requests or style your project.",
-  },
+    "AN ULTIMATE COMPANION FOR ALL PET CARE  AN ANDROID APPLICATION THAT PROVIDES EXCLUSIVE ACCESS TO EXPERT ADVICE ON PET CARE AND NUTRITION THIS APPLICATION INCLUDES BOTH STATIC INFORMATION FROM THE DEVELOPER AND DYNAMIC CONTENT FROM USERS.  IN THIS PROJECT, I WORKED ON BASIC JAVA CODE TO RETRIEVE INFORMATION FROM USERS AND DISPLAY IT ON THE PAGE, UTILIZING XML,   JAVA, AND FIREBASE DATABASE."  },
   {
-    id: "bankist",
-    img: Bankist,
-    name: "Bankist",
-    stack: ["< Vanilla JS />", "< CSS3 />", "< HTML5 />"],
-    src: "https://bankist-bank.vercel.app/",
-    source: "https://github.com/catherineisonline/bankist",
-    description:
-      "Bankist is a fictional online bank and its goal is to practice DOM manipulation and user interaction. Bankist has an option to log in to the account and use different functionalities, almost like in an actual bank! By logging into your account you can transfer money to another account, take a loan or delete the account. Please check README for login info.",
-  },
-  {
-    id: "edgy",
-    img: Edgy,
+    id: "Face Detection",
     name: "Edgy",
-    stack: ["< Tailwind />", "< React.js />", "< Express.js />", "< Airtable API />", "< Google ReCaptcha />"],
-    src: "https://catherineisonline.github.io/edgy/",
-    source: "https://github.com/catherineisonline/edgy",
+    stack: ["< Python />", "< OpenCV />"],
     description:
-      "Edgy - is a social media marketing agency that offers Instagram growth services to businesses and beginner influencers. The website includes prices, a contact form, a blog, a careers page, and more.",
+      "IT IS A PYTHON BASED PROJECT WHICH CAN SCAN AND DETECT THE FACE PARTS OF HUMAN. IT CAN DETECT VARIOUS FACE PARTS LIKE EYES, EARS, NOSE, ETC ",
   },
 ];
 

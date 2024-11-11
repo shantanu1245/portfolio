@@ -1,14 +1,11 @@
 const stack = [
   "HTML5",
   "CSS3",
-  "Tailwind",
-  "SCSS/SASS",
-  "JavaScript ES6+",
   "React.js",
-  "RESTful API",
   "GitHub",
   "Git",
-  "Figma",
+  "Python",
+  "C & C++",
   "Visual Studio Code"
 ];
 

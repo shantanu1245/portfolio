@@ -5,26 +5,21 @@ const NavigationSocials = () => {
   return (
     <section className="navigation__socials">
       <a
-        href="https://www.linkedin.com/in/catherinemitagvaria/"
+        href="https://www.linkedin.com/in/shantanu-supekar-5903592a5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         target="_blank"
         rel="noreferrer"
       >
         <img src={Linkedin} alt="LinkedIn profile" />
       </a>
       <a
-        href="https://github.com/catherineisonline"
+        href="https://github.com/shantanu1245"
         target="_blank"
         rel="noreferrer"
       >
-        <img src={Github} alt="GitHub" />
+        <img src={Github} alt="LinkedIn profile" />
       </a>
-      <a
-        href="https://codepen.io/catherineisonline"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img src={Codepen} alt="Codepen" />
-      </a>
+      
+    
     </section>
   );
 };
